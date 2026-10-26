@@ -1,0 +1,13 @@
+# Install PyTorch first:
+#   pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu118
+numpy==1.26.4
+opencv-python==4.9.0.80
+scipy==1.13.0
+pandas==2.2.3
+matplotlib==3.10.1
+seaborn==0.13.2
+PyYAML==6.0.1
+tqdm==4.67.1
+Pillow==10.4.0
+requests==2.32.3
+setuptools<81

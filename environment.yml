@@ -1,0 +1,11 @@
+name: tehnet-focusdet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu118
+      - torch==2.2.2+cu118
+      - torchvision==0.17.2+cu118
+      - -r requirements.txt
